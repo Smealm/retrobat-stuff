@@ -108,6 +108,7 @@ RetroBat/
 
 ### Common Issues
 1. **Patches not applying?**
+   - Ensure your ROM is unarchived (not in .zip, .7z, .rar, etc.)
    - Ensure your ROM filename matches the patch folder name exactly
    - Check that the patch files are not corrupted
    - Verify the patch format is supported
@@ -124,10 +125,11 @@ RetroBat/
 ## Important Notes
 - Only one patch file is supported per romhack folder
 - The patch file can have any name but must have a supported extension (e.g., .ips, .ups, .bps)
+- **ROMs must be unarchived** - The script does not support zipped or archived ROM files
 - Multi-patch and multi-pass functionality is not yet implemented
 
 ## Example Walkthrough
-1. You have a SNES ROM: `D:\Games\RetroBat\roms\snes\Super Mario World (USA).sfc`
+1. You have an unarchived SNES ROM (not in a zip/archive): `D:\Games\RetroBat\roms\snes\Super Mario World (USA).sfc`
 2. You want to apply a romhack called "Kaizo Mario"
 3. Create this structure:
    ```
