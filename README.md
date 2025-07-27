@@ -60,8 +60,8 @@ RetroBat/
 │       ├── patches/        # Create this folder
 │       │   └── [ROM Name]/
 │       │       └── [Romhack Name]/
-│       │           ├── patch1.ips
-│       │           ├── patch2.ups
+│       │           ├── patch1.ips 
+│       │           ├── [Romhack Name].[ext] # Generated ROM file
 │       │           └── integrity.json
 │       └── [ROM Name].[ext]  # Original ROM file
 ├── system/
