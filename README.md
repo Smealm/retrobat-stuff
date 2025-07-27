@@ -85,9 +85,8 @@ RetroBat/
 ### 2. Automatic Patching
 1. The script runs automatically when RetroBat starts
 2. It will:
-   - Scan all system patch directories
-   - Find matching ROMs
-   - Apply patches in the correct order
+   - Scan all system patch directories for romhack folders
+   - Apply patches
    - Generate patched ROMs in their respective romhack folders
 
 ### 3. Patch Management
