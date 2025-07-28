@@ -112,6 +112,7 @@ RetroBat/
    - Ensure your ROM filename matches the patch folder name exactly
    - Check that the patch files are not corrupted
    - Verify the patch format is supported
+   - Download the "updatesoftpatches.bat" in this repo and put it in the same directory as your .ps1 file
 
 2. **Script not running?**
    - Make sure PowerShell execution policy allows script execution
@@ -127,6 +128,7 @@ RetroBat/
 - The patch file can have any name but must have a supported extension (e.g., .ips, .ups, .bps)
 - **ROMs must be unarchived** - The script does not support zipped or archived ROM files
 - Multi-patch and multi-pass functionality is not yet implemented
+- Retrobat has some bugs with running ps1 files on startup. if patches aren't being applied then use the .bat file included in this repo, the bat file just tells retrobat to run the ps1 file on startup
 
 ## Example Walkthrough
 1. You have an unarchived SNES ROM (not in a zip/archive): `D:\Games\RetroBat\roms\snes\Super Mario World (USA).sfc`
