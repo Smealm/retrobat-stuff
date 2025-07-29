@@ -71,6 +71,7 @@ RetroBat/
     └── .emulationstation/
         └── scripts/
             └── start/
+                ├── fix-updatesoftpatches.bat # If the script won't start for some reason
                 └── updatesoftpatches.ps1   
 ```
 
